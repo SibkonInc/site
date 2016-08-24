@@ -1,0 +1,25 @@
+/* block's */
+.top_block{
+    width: 100%;
+}
+
+.center_block{
+    width: 100%;
+}
+
+.down_block{
+    width: 100%;
+}
+
+.l_block{
+    float: left;
+    width: 380px;
+    margin-left: 5px;
+}
+
+.r_block{
+    float: left;
+    width: 380px;
+    margin-left: 5px;
+}
+/* end block's */

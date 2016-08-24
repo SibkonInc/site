@@ -1,0 +1,79 @@
+#all_profile{
+padding:5px 10px;
+position:relative;
+height:100%;
+}
+
+#info{
+border:1px solid black;
+width:200px;
+height:300px;
+float:left;
+}
+
+#status{
+border:1px solid black;
+width:39%;
+height:150px;
+float:right;
+}
+
+#money{
+border:1px solid black;
+width:35%;
+height:150px;
+float:left;
+margin-left: 12px;;
+}
+
+#food{
+border:1px solid black;
+width:75%;
+min-height:100px;
+max-height:200px;
+float:right;
+margin-top:10px;
+}
+
+#food1{
+border:1px solid black;
+width:75%;
+height:100px;
+float:right;
+margin-top:10px;
+}
+
+#podval{
+position:absolute;
+bottom:10px;
+border:1px solid black;
+width:98%;
+height:75px;
+}
+
+#karma{
+border: 1px solid black;
+top: 320px;
+position: absolute;
+width:200px;
+height: 150px;
+float: left;
+}
+
+#select{
+  border-radius: 0;
+  background: transparent;
+    height: 30px;
+    margin: -3px -15px 0 0;
+  font-size: 14px;
+    width: 320px;
+
+}
+
+#select select {
+    border-radius: 0;
+        height: 30px;
+    background: transparent;
+    font-size: 14px;
+        width: 320px;
+   }

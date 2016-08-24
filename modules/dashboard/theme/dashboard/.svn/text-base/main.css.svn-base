@@ -1,0 +1,26 @@
+/* block's */
+.l_block{
+    float: left;
+    width: 250px;
+    margin-left: 5px;
+    border: black dashed 1px;
+    height: 300px;
+}
+
+.c_block{
+    float: left;
+    width: 250px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: black dashed 1px;
+    height: 300px;
+}
+
+.r_block{
+    float: left;
+    width: 250px;
+    margin-right: 5px;
+    border: black dashed 1px;
+    height: 300px;
+}
+/* end block's */

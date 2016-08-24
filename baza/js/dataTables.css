@@ -1,0 +1,111 @@
+.dataTables_wrapper {
+	position: relative;
+	min-height: 302px;
+	* height: 302px;
+	clear: both;
+}
+.dataTables_processing {
+	position: absolute;
+	top: 39px;
+	left: 50%;
+	width: 500px;
+	margin-left: -260px;
+	padding: 20px;
+	background-color: #EFFFBD;
+	border: 1px solid #E3FE57;
+	text-align: center;
+}
+.dataTables_length {
+	width: 40%;
+	float: left;
+}
+.dataTables_filter {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.dataTables_info {
+	width: 60%;
+	float: left;
+}
+.dataTables_paginate {
+	width: 44px;
+	* width: 50px;
+	float: right;
+	text-align: right;
+}
+/* Pagination nested */
+.paginate_disabled_previous, .paginate_enabled_previous, .paginate_disabled_next, .paginate_enabled_next {
+	height: 19px;
+	width: 19px;
+	margin-left: 3px;
+	float: left;
+}
+.paginate_disabled_previous {
+	background-image: url('datatables/images/back_disabled.jpg');
+}
+.paginate_enabled_previous {
+	background-image: url('datatables/images/back_enabled.jpg');
+}
+.paginate_disabled_next {
+	background-image: url('datatables/images/forward_disabled.jpg');
+}
+.paginate_enabled_next {
+	background-image: url('datatables/images/forward_enabled.jpg');
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables display
+ */
+table.display {
+	font-family:arial;
+	background-color:#F0F0F6;
+	margin:10px 0pt 15px;
+	font-size: 9pt;
+	width: 100%;
+	text-align: left;
+}
+table.display thead tr th, table.tablesorter tfoot tr th {
+	background-color: #D9DAE3;
+	border: 1px solid #FFF;
+	font-size:9pt;
+	padding: 4px;
+}
+table.display thead tr .header {
+	background-image: url(datatables/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.display tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.display tbody tr.odd td {
+
+}
+
+table.display thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #DBDBF9;
+}
+
+table.display tbody tr.alt td {
+background: #DBDBF9;
+}
+
+.display tbody tr.over td {
+	background: #DBDBF9;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables sorting
+ */
+
+.sorting_asc {
+	background: url('datatables/asc.gif') no-repeat center right;
+}
+
+.sorting_desc {
+	background: url('datatables/desc.gif') no-repeat center right;
+}

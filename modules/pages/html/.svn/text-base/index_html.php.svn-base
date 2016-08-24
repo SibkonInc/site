@@ -1,0 +1,1 @@
+<h2><?=$module['index_data']?></h2>

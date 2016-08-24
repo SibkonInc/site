@@ -1,0 +1,124 @@
+H2 {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size:16pt;
+    padding: 0px;
+    color: #336699;
+}
+H3 {
+    font-family: tahoma, verdana, arial;
+    font-size:14pt;
+    padding: 0px;
+    color: #336699;
+}
+H4 {
+    font-family: tahoma, verdana, arial;
+    font-size:12pt;
+    padding: 0px;
+    color: #336699;
+}
+.error{
+
+    color: #cc0000;
+    font-size: XX-large;
+    text-align: center;
+    border-right-style: dotted;
+    border-left-style: dotted;
+    border-bottom-style: dotted;
+    border-top-style: dotted;
+}
+.error h1{
+
+    color: #cc0000;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10pt;
+    background-color: #e7e7e7;
+}
+
+img{
+    border: 0;
+}
+
+#wrapper {
+    width: 100%;
+    min-width: 1000px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+#header{
+
+    background-image: url(img/logo_back.png);
+    height: 220px;
+}
+
+#container {
+    width: 100%;
+}
+
+#left {
+    float: left;
+    width: 200px;
+}
+
+#content {
+    width: 800px;
+    float: left;
+}
+
+#text {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* accordion */
+#accordion{
+    height: 32px;
+    font-family: tahoma, verdana, arial;
+    font-size: 12px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+#accordion a{
+    color: #000000;
+    text-decoration: none;
+}
+
+#accordion a li{
+    min-width: 90%;
+}
+
+#accordion a li:hover{
+    background-color: #cccccc;
+    color: red;
+}
+/* end accordion */
+
+/* footer */
+#footer{
+    clear: both;
+    background-image: url(img/footer_back.png) ;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/* end footer */

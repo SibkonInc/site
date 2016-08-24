@@ -1,0 +1,22 @@
+*{ margin: 0; padding: 0; }* 
+a {color: #266ba8; text-decoration: none; cursor:pointer;}
+a:hover { color: #995;text-decoration: none; }
+h2 {font-size: 18px; font-weight:bold; color:#133b5e; padding:4px; margin-bottom:12px; border-bottom:1px solid #CCC;}
+#coments {position:relative; left:0px;}
+#coments  .title{position:relative; left:-12px; width:594px; height:70px; background: #EEE }
+#coments  .title h2{margin:0;}
+#coments  .title .left{float:left; padding:5px; width:500px;}
+#coments .addcoment {position:relative; top:-15px; background: #EEE; border:5px solid #93afbc; display:none;}
+#coments .addcoment img:hover{cursor:pointer;}
+#coments  textarea{ width:535px; font-size:14px; height: 180px; margin:10px; overflow:hidden; background:#FFF; border:1px solid #DDD;}
+#coments  input[type="text"]{padding-left:10px; width:525px; height:25px; font-size:15px; line-height: 1.8em; margin:10px 5px 0px 10px; border:1px solid #DDD;}
+#coments  .addcoment span{position:relative; top:-10px; margin-right:180px; left:180px; font-size:20px; color:#292;}
+#coments  #statusbox{padding-left:10px; line-height:55px; color:#888; font-size:18px; height:50px;}
+#coments  img.button_add{margin:10px 5px 0px 10px; padding:0; border:0; float:none;}
+#coments .top {font-size:15px; height:47px; padding:15px 15px 0px 195px; color:#9e9968;}
+#coments .main {position:relative;}
+#coments .block_name {height:40px; position:relative; left:10px; top:10px;}
+#coments .name {height:40px; font-size:17px; font-weight:normal; color: #070; float:left;}
+#coments .date {height:40px; font-size:10px; position:relative; left:-10px; float:right; color: #555;}
+#coments img{float:left;}
+#coments .coment{position:relative; left:-12px; width:510px; padding:19px 20px 10px 20px; border-bottom:1px solid #DDD; font-size:12px; background: #f7f4ca url(images/coment_top.png) left top no-repeat; text-align:justify;}

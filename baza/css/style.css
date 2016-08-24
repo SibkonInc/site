@@ -1,0 +1,151 @@
+body {
+background-color:#E0EAE0;
+font-size:14px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+#wrapper{
+width: 1390px;
+height: 540px;
+margin: 20px auto;
+}
+
+#header{
+width: 90%;
+background: #FFFFFF;
+border:1px solid black;
+}
+
+#center_wrap{
+min-height: 600px;
+margin-top:10px;
+}
+
+#one_column{
+width: 892px;
+height: 100%;
+min-height:600px;
+max-height:600px;
+float: left;
+background: #FFFFFF;
+overflow:auto;
+border:1px solid black;
+padding-left:10px;
+padding-top:10px;
+}
+
+#sp_pit{
+padding-top:15px;
+width:75%;
+float: right;
+overflow: auto;
+max-height: 710px;
+}
+
+#stat_pit{
+padding-top:15px;
+padding-left:20px;
+float: left;
+max-width:100ps;
+}
+
+#two_column{
+width: 342px;
+height: 100%;
+min-height:200px;
+min-width:330px;
+float: left;
+background: #FFFFFF;
+overflow:auto;
+margin-left:5px;
+border:1px solid black;
+padding-top:10px;
+}
+
+#spisok1{
+max-height:567px;
+}
+
+#footer{
+width: 90%;
+height: 0px;
+background: #222;
+background-color:#efefef;
+}
+
+#login_form{
+float:right;
+width:200px;
+margin-top: -24px;
+margin-right: 20px;
+}
+
+#login_form2{
+float:right;
+width:200px;
+margin-top: -35px;
+margin-right: 50px;
+}
+
+.clear {
+clear:both;
+}
+
+
+#container {
+padding:20px;
+}
+
+#noscript {
+background-color:#F90;
+font-size:12px;
+color:#fff;
+border-bottom:#F60 1px solid;
+padding:10px;
+}
+
+.login_form{
+ margin: 0 6px;
+ width: 90px;
+ border: 1px solid black; 
+}
+.pass_form{
+ margin: 5px 6px;
+ width: 80px;
+ border: 1px solid black; 
+}
+.login_btn{
+margin-top: -20px;
+margin-right: -57px;
+padding-top: 26px;
+height: 47px;
+}
+
+#green_stat{
+background-color:#B0CCCC;
+height:30px;
+width: 320px;
+margin: 5px 10px;
+text-align:center;
+line-height: 2em;
+
+}
+#red_stat{
+background-color:#F6BAC0;
+height:30px;
+width: 320px;
+margin: 5px 10px;
+text-align:center;
+line-height: 2em;
+
+}
+#normal_stat{
+
+}
